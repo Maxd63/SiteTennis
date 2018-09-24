@@ -1,0 +1,108 @@
+@font-face {
+	font-family:OstrichSans;
+	src: url(Font/OstrichSans-Light.otf); 
+
+}
+
+.Lien {
+	text-decoration: none;
+}
+
+
+.Menu li {
+	display: inline;
+	list-style: none;
+	float: right;
+
+}
+.Menu li a {
+	text-decoration: none;
+	color: #FFFFE7;
+	
+	padding: 5px 20px;
+	
+}
+
+
+.Menu li a:hover {
+	color: white;
+	background-color: #546E7A;
+	border-radius: 8px;
+
+
+
+}
+
+body {
+	
+    margin: 0 !important;
+    padding: 0 !important;
+
+
+	background: radial-gradient(circle,  #EEEEEE, #95a5a6);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+h1 {
+	color: #1E88E5;
+	font-family: OstrichSans;
+	font-size: 60px;
+	width: 50%;
+	margin: 0;
+	padding-left: 2%;
+
+
+}
+.Titre span {
+
+	width: 50%;
+}
+
+
+div aside {
+	float : right;
+	padding-right: 4%;
+	height: 400px;
+}
+
+div section article h3 {
+	color: #6D4C41;
+
+}
+
+div section.Info article, p, a {
+
+	padding-left: 3%;
+
+}
+
+div section.Info article, h3 {
+	padding-left: 0.5%;
+}
+
+
+
+div section.Presentation article, p, ul {
+
+		padding-left: 3%;
+
+}
+
+div section.Presentation article, h2 {
+
+		padding-left: 0.5%;
+
+}
+
+div section article h2 {
+	color: #4E342E;
+
+}
+
+div section article ul {
+	list-style: none;
+
+}
+
